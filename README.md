@@ -2,92 +2,76 @@
 
 ## 📝 Project Overview
 
-This project presents an interactive Power BI dashboard designed to analyze and monitor key metrics in a hospital emergency room setting. The dashboard provides real-time insights into patient inflow, waiting times, discharge statistics, and operational performance — allowing hospital management to make informed decisions and improve care efficiency.
-
----
-
-## 📸 Dashboard Preview
-
-![ER Overview](https://github.com/user-attachments/assets/c6ac7d65-e6af-4b67-a210-ae9ac32a7c37)
+This project presents a dynamic Power BI dashboard designed to help hospital administrators and emergency staff monitor and improve performance in a busy Emergency Room (ER). The dashboard tracks real-time metrics such as patient volume, triage categories, wait times, and discharge trends — making it easier to allocate resources and enhance patient care.
 
 ---
 
 ## 📁 Dataset
 
 **File**: `Hospital emergency room dashboard.pbix`  
-**Domain**: Healthcare / Hospital Operations  
+**Domain**: Healthcare / Operations Analytics  
+**Source**: Simulated emergency department data  
 **Tool**: Power BI Desktop  
-**Source**: Simulated hospital emergency room dataset  
-**Contents**: Includes patient-level records with time, category, and service data
+**Content**: Includes patient-level data such as arrival time, category, wait time, discharge status, and department.
 
 ---
 
 ## 🎯 Objectives
 
-- Visualize emergency room KPIs such as:
-  - Total visits
-  - Waiting time
-  - Triage category distribution
-  - Discharge rates
-- Track and compare performance trends over time
-- Identify operational bottlenecks and resource gaps
+- Analyze total ER visits by time, category, and department  
+- Visualize triage distribution and critical case trends  
+- Track patient wait time across key stages (triage, consult, discharge)  
+- Monitor discharge and referral patterns  
+- Provide actionable insights for operational improvement
 
 ---
 
-## 🛠 Tools & Features Used
+## 📸 Dashboard Preview
 
-- **Power BI Desktop**
-- Power Query for data shaping
-- DAX measures and calculated columns
-- Interactive slicers and filters
-- Drill-through & dynamic visuals
-- Custom visuals for KPI cards and time trends
-
----
-
-## ✅ Key Dashboards & Visuals
-
-- 📊 **Patient Volume Overview**
-  - Total number of ER visits by date, time, and department
-- ⏱ **Waiting Time Analysis**
-  - Average time to triage, doctor consult, and discharge
-- 📈 **Trend Analysis**
-  - Visits and wait times over days/weeks
-- 🚨 **Triage Category Breakdown**
-  - Percentage of patients by severity
-- 🧾 **Discharge & Admission Flow**
-  - Outcomes and referral pathways
+![image](https://github.com/user-attachments/assets/8aeb8358-136b-4ff4-ae07-e64c244f1490)
 
 ---
 
 ## 📈 Key Insights
 
-- Peak hours and days with high patient influx were clearly identified  
-- Certain triage categories showed longer-than-expected wait times  
-- Discharge-to-admission ratios helped pinpoint throughput issues  
-- Real-time data filtering improved situational awareness for staff
+- 🚨 High patient load is consistently observed between 6–9 PM  
+- ⏱ Patients in **Triage Category 1 (critical)** wait the longest before seeing a doctor  
+- 📉 Discharge-to-admission ratios show inefficiencies in department handoffs  
+- 📍 Departments like **General Medicine** and **Pediatrics** see the most re-visits  
+- 📊 Dashboards allow real-time drill-through filtering by category, time, and department
 
 ---
 
 ## 📌 How to Use
 
-1. Open the `.pbix` file in **Power BI Desktop**
-2. Interact with slicers to filter by:
-   - Date ranges
-   - Triage category
-   - Department/physician
-3. Explore different visuals to gain insights into ER performance
-4. Use the dashboard to support decisions on resource allocation and efficiency improvements
+1. Open the `.pbix` file using **Power BI Desktop**
+2. Interact with the dashboard:
+   - Use filters to view specific triage categories or departments
+   - Drill down to explore specific time periods
+3. Use the dashboard to:
+   - Monitor KPIs
+   - Identify peak pressure periods
+   - Guide staffing and resource decisions
+
+---
+
+## 🛠 Tools & Features Used
+
+- Power BI Desktop  
+- Power Query for data transformation  
+- DAX for KPIs and calculated metrics  
+- Slicers, Cards, Column Charts, Line Charts  
+- Drill-through and Cross-filtering for interactivity  
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- Power BI Dashboard Design  
-- DAX Calculations  
-- Data Cleaning with Power Query  
-- Healthcare Operational Analysis  
-- UX for Business Intelligence  
+- Healthcare analytics  
+- Power BI dashboard design  
+- DAX calculations and performance tracking  
+- Data cleaning and modeling in Power Query  
+- UX/UI for operations insight
 
 ---
 
