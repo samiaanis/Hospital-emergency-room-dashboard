@@ -8,10 +8,6 @@ This project presents an interactive Power BI dashboard designed to analyze and 
 
 ## 📸 Dashboard Preview
 
-## 📸 Dashboard Previews
-
-### 🔹 ER Performance Overview
-
 ![ER Overview](https://github.com/user-attachments/assets/c6ac7d65-e6af-4b67-a210-ae9ac32a7c37)
 
 ---
