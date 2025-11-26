@@ -1,82 +1,106 @@
-# 🏥 Hospital Emergency Room Dashboard (Power BI)
+# 🏥 Emergency Room Analytics Dashboard (Power BI)
 
-## 📝 Project Overview
+A multi-page Power BI dashboard analysing **9,216 Emergency Room patients** over **19 months (Apr 2023 – Oct 2024)** to understand patient flow, operational load, wait times, referrals, demographics and overall service efficiency.
 
-This project presents a dynamic Power BI dashboard designed to help hospital administrators and emergency staff monitor and improve performance in a busy Emergency Room (ER). The dashboard tracks real-time metrics such as patient volume, triage categories, wait times, and discharge trends — making it easier to allocate resources and enhance patient care.
-
----
-
-## 📁 Dataset
-
-**File**: `Hospital emergency room dashboard.pbix`  
-**Domain**: Healthcare / Operations Analytics  
-**Source**: Simulated emergency department data  
-**Tool**: Power BI Desktop  
-**Content**: Includes patient-level data such as arrival time, category, wait time, discharge status, and department.
+This project blends **clinical knowledge** with **data analytics**, transforming raw hospital data into decision-ready insights for healthcare operations.
 
 ---
 
-## 🎯 Objectives
+## 📊 Dashboard Pages
 
-- Analyze total ER visits by time, category, and department  
-- Visualize triage distribution and critical case trends  
-- Track patient wait time across key stages (triage, consult, discharge)  
-- Monitor discharge and referral patterns  
-- Provide actionable insights for operational improvement
+### **1. Monthly View**
+- Dynamic **Month** and **Year** filters  
+- All visuals update instantly  
+- Shows seasonal patterns and monthly surges
 
----
+<img src="https://github.com/user-attachments/assets/a42b8cb1-4d3f-4c55-bbe4-8ca476ee8ba6" width="900" alt="Monthly View"/>
 
-## 📸 Dashboard Preview
 
-![image](https://github.com/user-attachments/assets/8aeb8358-136b-4ff4-ae07-e64c244f1490)
 
----
+### **2. Consolidated View**
+- Interactive **timeline view**  
+- Analyse trends over any **custom date range**  
+- Helpful for operational planning and long-term trend analysis
 
-## 📈 Key Insights
+<img src="https://github.com/user-attachments/assets/ec86ab84-42d4-47f8-bad6-e42a6e1dd336" width="900"/>
 
-- 🚨 High patient load is consistently observed between 6–9 PM  
-- ⏱ Patients in **Triage Category 1 (critical)** wait the longest before seeing a doctor  
-- 📉 Discharge-to-admission ratios show inefficiencies in department handoffs  
-- 📍 Departments like **General Medicine** and **Pediatrics** see the most re-visits  
-- 📊 Dashboards allow real-time drill-through filtering by category, time, and department
 
----
 
-## 📌 How to Use
+### **3. Patient Records**
+- **Searchable, filterable** table  
+- Patient-level drill-down  
+- Useful for case exploration and quality review
 
-1. Open the `.pbix` file using **Power BI Desktop**
-2. Interact with the dashboard:
-   - Use filters to view specific triage categories or departments
-   - Drill down to explore specific time periods
-3. Use the dashboard to:
-   - Monitor KPIs
-   - Identify peak pressure periods
-   - Guide staffing and resource decisions
+<img src="https://github.com/user-attachments/assets/f4a50c49-89d0-41b3-8a6a-f6eb61016df3" width="900" alt="Patient Records View"/>
 
----
 
-## 🛠 Tools & Features Used
 
-- Power BI Desktop  
-- Power Query for data transformation  
-- DAX for KPIs and calculated metrics  
-- Slicers, Cards, Column Charts, Line Charts  
-- Drill-through and Cross-filtering for interactivity  
+### **4. Insights Page**
+- Clean summary of **key findings and KPIs**  
+- Executive-style quick takeaways  
+- Highlights the most important trends
+
+<img src="https://github.com/user-attachments/assets/b2be7012-a6b6-4d80-a790-e93ae8a6c895" width="900" alt="Insights Page"/>
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🔍 Key Insights
 
-- Healthcare analytics  
-- Power BI dashboard design  
-- DAX calculations and performance tracking  
-- Data cleaning and modeling in Power Query  
-- UX/UI for operations insight
+- **35.3 minutes** average wait time  
+- Peak rush on **Saturdays** and late evenings  
+- **50%** admitted and **50%** discharged  
+- **3,816 referrals**, mostly to **General Practice** and **Orthopaedics**  
+- Largest age groups: **35–49 years** and **20–29 years**  
+- Satisfaction score: **4.99 / 10**
+
+These insights support better staffing, flow optimisation, routing decisions and patient experience improvement.
 
 ---
 
-## 📬 Contact
+## 🛠 Technical Stack
 
-**Created by:** Samia Anis  
-📧 samia.anis01@gmail.com  
-🌍 Birmingham, UK
+### **Power Query (ETL)**
+- Data cleaning and transformation  
+- Data type fixes, column standardisation  
+- Handling missing values  
+- Preparing a clean dataset for modelling  
+
+### **Data Modelling**
+- **Star-schema model**  
+- Custom **Date Table**  
+- Relationships between fact and dimension tables  
+
+### **DAX Measures**
+Used for:  
+- Average Wait Time  
+- Patient Satisfaction  
+- Referral Count  
+- Admissions  
+- Monthly KPIs  
+- Time-intelligence calculations  
+
+### **Dashboard Design**
+- Multi-page Power BI dashboard  
+- **Left-side navigation panel**  
+- Interactivity through slicers  
+- Clear colour coding and layout  
+- Optimised user experience
+
+---
+
+## 🎯 Why This Dashboard Matters
+
+Emergency Rooms run under intense, unpredictable pressure.  
+This dashboard helps teams:
+
+- Predict surges and bottlenecks  
+- Align staffing with peak demand  
+- Improve routing and triage  
+- Monitor demographic patterns  
+- Enhance patient satisfaction  
+- Track referrals and departmental load  
+
+It bridges clinical operations with **data-driven decision-making**.
+
+
+
